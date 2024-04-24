@@ -3,7 +3,7 @@ project_name: "data-block-community-mobility"
 ################ Constants ################
 
 constant: CONNECTION_NAME {
-  value: "lookerdata"
+  value: "sample_bigquery_connection"
   export: override_optional
 }
 
