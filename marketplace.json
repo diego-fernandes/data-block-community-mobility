@@ -1,0 +1,21 @@
+{
+  "label": "Community Mobility Reports by Google",
+  "category_label": "Models",
+  "branding": {
+    "image_uri": "https://marketplace-api.looker.com/block-icons/mobility_icon.png",
+    "tagline": "Explore how Covid19 has changed your community’s mobility."
+  },
+
+  "constants": {
+    "CONNECTION_NAME": {
+      "label": "Connection Name",
+      "value_constraint": "connection"
+    }
+  },
+  "models": [
+    {
+      "name": "mobility_v2",
+      "connection_constant": "CONNECTION_NAME"
+    }
+  ]
+}
